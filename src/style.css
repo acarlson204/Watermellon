@@ -34,6 +34,10 @@ footer a:hover {
 }
 header {
     margin-top: 100px;
+    margin-bottom: 250px;
+}
+main {
+    margin-bottom: 100px;
 }
 footer {
      text-rendering: optimizeLegibility;
