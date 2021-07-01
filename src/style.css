@@ -1,33 +1,15 @@
 body {
 background-image: url("../th.jpg");
-margin: 0px 25px!important;
-width: 90vw;
+margin-left: 21px;
+max-width: 90vw;
 font-family: 'Nanum Gothic', sans-serif;
 }
 
-button {
-    background-color: #ffffff;
-    border: 1px solid #94C95D;
-    border-radius: 3px;
-    color: #94C95D!important;
-    font-size: 12px;
-}
-button:hover {
-    border: 1px solid #e54b4b;    
-    color: #e54b4b!important;
-    transition:  all 400ms ease-in-out;    
-}
+
 a:hover {
    
     color: #e54b4b!important;
     transition:  all 400ms ease-in-out;    
-}
-footer a {
-     font-size: 20.25px;
-     line-height: 2;
-     text-decoration: none;
-     text-rendering: optimizeLegibility;
-
 }
 a:hover {
     color: #e54b4b;
@@ -36,18 +18,50 @@ a:hover {
 nav a:active {
     color: #e54b4b!important;
 }
-.blue-text {
-    color: #4b6cc1;
+
+button:hover {
+    border: 1px solid #e54b4b;    
+    color: #e54b4b!important;
+    transition:  all 400ms ease-in-out;    
 }
-footer {
+button {
+    background-color: #ffffff;
+    border: 1px solid #94C95D;
+    border-radius: 3px;
+    color: #94C95D!important;
+    font-size: 12px;
+}
+
+
+form button {
+    color: #ffffff!important;
+}
+form {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border: 2px solid #070707;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+
+footer a {
+     font-size: 20.25px;
+     line-height: 2;
+     text-decoration: none;
      text-rendering: optimizeLegibility;
- }
+
+}
  footer, footer a, main a {
 color: rgb(149, 137, 158);
  }
+footer {
+     text-rendering: optimizeLegibility;
+ }
+
 h1, h3 {
     font-family: 'Dancing Script', cursive;
-
 }
 h1 {
     font-size: 60px;
