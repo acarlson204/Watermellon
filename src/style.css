@@ -1,13 +1,12 @@
 body {
 background-image: url("../th.jpg");
-margin-left: 21px;
-max-width: 90vw;
+background-size: contain;
 font-family: 'Nanum Gothic', sans-serif;
+width: auto;
+margin: 0 10px;
 }
 
-
 a:hover {
-   
     color: #e54b4b!important;
     transition:  all 400ms ease-in-out;    
 }
@@ -20,16 +19,16 @@ nav a:active {
 }
 
 button:hover {
-    border: 1px solid #e54b4b;    
+    border: 1px solid #94c95d; 
     color: #e54b4b!important;
     transition:  all 400ms ease-in-out;    
 }
 button {
     background-color: #ffffff;
-    border: 1px solid #94C95D;
+    border: 1px solid #e54b4b;
     border-radius: 3px;
     color: #94C95D!important;
-    font-size: 12px;
+    margin: 2px;
 }
 
 
@@ -45,9 +44,13 @@ form {
     padding: 20px;
 }
 
-
+.banner-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 22px;
+}
 footer a {
-     font-size: 20.25px;
      line-height: 2;
      text-decoration: none;
      text-rendering: optimizeLegibility;
@@ -64,20 +67,32 @@ h1, h3 {
     font-family: 'Dancing Script', cursive;
 }
 h1 {
-    font-size: 60px;
+    font-size: 70px;
+    color: #e54b4b;
+    font-weight: 800;
 }
 h3 {
     font-size: 40px;
 }
 .stretched {
-    image-rendering: pixelated;
+    image-rendering:auto;
     opacity: 0.4;
 }
+
  ul {
      list-style: none;
+     padding-left: 0;
  }
 
 iframe {
 display: block;
-    margin: 0 auto;
+margin: 0 auto;
+}
+@media(max-width:500px) {
+    .banner-buttons {
+
+        align-items: center;
+        margin: 15px;
+        
+    }
 }
